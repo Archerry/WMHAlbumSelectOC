@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B614E25211AD3340099E80B /* WMHAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E24211AD3340099E80B /* WMHAlbumListViewController.m */; };
+		8B614E2C211ADBCB0099E80B /* WMHAlbumListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E2A211ADBCB0099E80B /* WMHAlbumListCell.m */; };
+		8B614E2D211ADBCB0099E80B /* WMHAlbumListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B614E2B211ADBCB0099E80B /* WMHAlbumListCell.xib */; };
+		8B614E34211ADF0F0099E80B /* WMHPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E33211ADF0F0099E80B /* WMHPhotoModel.m */; };
+		8B614E3C211BD1CC0099E80B /* WMHPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E3B211BD1CC0099E80B /* WMHPhotoTool.m */; };
+		8B614E43211BE02D0099E80B /* WMHThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E42211BE02D0099E80B /* WMHThumbnailViewController.m */; };
+		8B614E48211BE57C0099E80B /* WMHThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E46211BE57C0099E80B /* WMHThumbnailCell.m */; };
+		8B614E49211BE57C0099E80B /* WMHThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B614E47211BE57C0099E80B /* WMHThumbnailCell.xib */; };
+		8B614E4E211BED080099E80B /* WMHShowBigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E4D211BED080099E80B /* WMHShowBigImageViewController.m */; };
+		8B614E53211BEFD80099E80B /* WMHShowBigImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B614E52211BEFD80099E80B /* WMHShowBigImageCell.m */; };
 		8BADD7B5211ABF5B008CC607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BADD7B4211ABF5B008CC607 /* AppDelegate.m */; };
 		8BADD7B8211ABF5B008CC607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BADD7B7211ABF5B008CC607 /* ViewController.m */; };
 		8BADD7BB211ABF5B008CC607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BADD7B9211ABF5B008CC607 /* Main.storyboard */; };
@@ -35,6 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B614E23211AD3340099E80B /* WMHAlbumListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHAlbumListViewController.h; sourceTree = "<group>"; };
+		8B614E24211AD3340099E80B /* WMHAlbumListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHAlbumListViewController.m; sourceTree = "<group>"; };
+		8B614E26211AD4150099E80B /* WMHAlbumPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHAlbumPrefix.pch; sourceTree = "<group>"; };
+		8B614E27211AD4B90099E80B /* WMHConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHConfig.h; sourceTree = "<group>"; };
+		8B614E29211ADBCB0099E80B /* WMHAlbumListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHAlbumListCell.h; sourceTree = "<group>"; };
+		8B614E2A211ADBCB0099E80B /* WMHAlbumListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHAlbumListCell.m; sourceTree = "<group>"; };
+		8B614E2B211ADBCB0099E80B /* WMHAlbumListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WMHAlbumListCell.xib; sourceTree = "<group>"; };
+		8B614E32211ADF0F0099E80B /* WMHPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHPhotoModel.h; sourceTree = "<group>"; };
+		8B614E33211ADF0F0099E80B /* WMHPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHPhotoModel.m; sourceTree = "<group>"; };
+		8B614E3A211BD1CC0099E80B /* WMHPhotoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHPhotoTool.h; sourceTree = "<group>"; };
+		8B614E3B211BD1CC0099E80B /* WMHPhotoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHPhotoTool.m; sourceTree = "<group>"; };
+		8B614E41211BE02D0099E80B /* WMHThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHThumbnailViewController.h; sourceTree = "<group>"; };
+		8B614E42211BE02D0099E80B /* WMHThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHThumbnailViewController.m; sourceTree = "<group>"; };
+		8B614E45211BE57C0099E80B /* WMHThumbnailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHThumbnailCell.h; sourceTree = "<group>"; };
+		8B614E46211BE57C0099E80B /* WMHThumbnailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHThumbnailCell.m; sourceTree = "<group>"; };
+		8B614E47211BE57C0099E80B /* WMHThumbnailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WMHThumbnailCell.xib; sourceTree = "<group>"; };
+		8B614E4C211BED080099E80B /* WMHShowBigImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHShowBigImageViewController.h; sourceTree = "<group>"; };
+		8B614E4D211BED080099E80B /* WMHShowBigImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHShowBigImageViewController.m; sourceTree = "<group>"; };
+		8B614E51211BEFD80099E80B /* WMHShowBigImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHShowBigImageCell.h; sourceTree = "<group>"; };
+		8B614E52211BEFD80099E80B /* WMHShowBigImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHShowBigImageCell.m; sourceTree = "<group>"; };
 		8BADD7B0211ABF5B008CC607 /* WMHAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMHAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BADD7B3211ABF5B008CC607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BADD7B4211ABF5B008CC607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +108,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B614E28211ADBAC0099E80B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E29211ADBCB0099E80B /* WMHAlbumListCell.h */,
+				8B614E2A211ADBCB0099E80B /* WMHAlbumListCell.m */,
+				8B614E2B211ADBCB0099E80B /* WMHAlbumListCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B614E2E211ADEDB0099E80B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E32211ADF0F0099E80B /* WMHPhotoModel.h */,
+				8B614E33211ADF0F0099E80B /* WMHPhotoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B614E39211BD1940099E80B /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E3A211BD1CC0099E80B /* WMHPhotoTool.h */,
+				8B614E3B211BD1CC0099E80B /* WMHPhotoTool.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		8B614E3D211BDFA80099E80B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E4A211BECEF0099E80B /* ShowBigImage */,
+				8B614E3F211BE00A0099E80B /* Thumbnail */,
+				8B614E3E211BDFC20099E80B /* AlbumList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B614E3E211BDFC20099E80B /* AlbumList */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E28211ADBAC0099E80B /* Views */,
+				8B614E23211AD3340099E80B /* WMHAlbumListViewController.h */,
+				8B614E24211AD3340099E80B /* WMHAlbumListViewController.m */,
+			);
+			path = AlbumList;
+			sourceTree = "<group>";
+		};
+		8B614E3F211BE00A0099E80B /* Thumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E44211BE54E0099E80B /* Views */,
+				8B614E40211BE0160099E80B /* Controllers */,
+			);
+			path = Thumbnail;
+			sourceTree = "<group>";
+		};
+		8B614E40211BE0160099E80B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E41211BE02D0099E80B /* WMHThumbnailViewController.h */,
+				8B614E42211BE02D0099E80B /* WMHThumbnailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B614E44211BE54E0099E80B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E45211BE57C0099E80B /* WMHThumbnailCell.h */,
+				8B614E46211BE57C0099E80B /* WMHThumbnailCell.m */,
+				8B614E47211BE57C0099E80B /* WMHThumbnailCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B614E4A211BECEF0099E80B /* ShowBigImage */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E50211BEFAF0099E80B /* Views */,
+				8B614E4B211BECF70099E80B /* Controllers */,
+			);
+			path = ShowBigImage;
+			sourceTree = "<group>";
+		};
+		8B614E4B211BECF70099E80B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E4C211BED080099E80B /* WMHShowBigImageViewController.h */,
+				8B614E4D211BED080099E80B /* WMHShowBigImageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B614E50211BEFAF0099E80B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B614E51211BEFD80099E80B /* WMHShowBigImageCell.h */,
+				8B614E52211BEFD80099E80B /* WMHShowBigImageCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8BADD7A7211ABF5B008CC607 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +234,9 @@
 		8BADD7B2211ABF5B008CC607 /* WMHAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				8B614E3D211BDFA80099E80B /* Controllers */,
+				8B614E39211BD1940099E80B /* tools */,
+				8B614E2E211ADEDB0099E80B /* Models */,
 				8BADD7B3211ABF5B008CC607 /* AppDelegate.h */,
 				8BADD7B4211ABF5B008CC607 /* AppDelegate.m */,
 				8BADD7B6211ABF5B008CC607 /* ViewController.h */,
@@ -110,6 +246,8 @@
 				8BADD7BE211ABF5C008CC607 /* LaunchScreen.storyboard */,
 				8BADD7C1211ABF5C008CC607 /* Info.plist */,
 				8BADD7C2211ABF5C008CC607 /* main.m */,
+				8B614E26211AD4150099E80B /* WMHAlbumPrefix.pch */,
+				8B614E27211AD4B90099E80B /* WMHConfig.h */,
 			);
 			path = WMHAlbum;
 			sourceTree = "<group>";
@@ -236,7 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BADD7C0211ABF5C008CC607 /* LaunchScreen.storyboard in Resources */,
+				8B614E49211BE57C0099E80B /* WMHThumbnailCell.xib in Resources */,
 				8BADD7BD211ABF5C008CC607 /* Assets.xcassets in Resources */,
+				8B614E2D211ADBCB0099E80B /* WMHAlbumListCell.xib in Resources */,
 				8BADD7BB211ABF5B008CC607 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +402,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B614E48211BE57C0099E80B /* WMHThumbnailCell.m in Sources */,
+				8B614E4E211BED080099E80B /* WMHShowBigImageViewController.m in Sources */,
+				8B614E2C211ADBCB0099E80B /* WMHAlbumListCell.m in Sources */,
+				8B614E34211ADF0F0099E80B /* WMHPhotoModel.m in Sources */,
 				8BADD7B8211ABF5B008CC607 /* ViewController.m in Sources */,
+				8B614E53211BEFD80099E80B /* WMHShowBigImageCell.m in Sources */,
 				8BADD7C3211ABF5C008CC607 /* main.m in Sources */,
 				8BADD7B5211ABF5B008CC607 /* AppDelegate.m in Sources */,
+				8B614E3C211BD1CC0099E80B /* WMHPhotoTool.m in Sources */,
+				8B614E43211BE02D0099E80B /* WMHThumbnailViewController.m in Sources */,
+				8B614E25211AD3340099E80B /* WMHAlbumListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2KG35WPES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WMHAlbum/WMHAlbumPrefix.pch";
 				INFOPLIST_FILE = WMHAlbum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +601,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2KG35WPES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WMHAlbum/WMHAlbumPrefix.pch";
 				INFOPLIST_FILE = WMHAlbum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
